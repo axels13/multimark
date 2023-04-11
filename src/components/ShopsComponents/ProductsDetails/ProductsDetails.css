@@ -1,0 +1,134 @@
+.productsdetails__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 2rem;
+}
+.productsdetails_card{
+    max-width: 1200px;
+    margin:  auto;
+}
+.product_btn{
+    background-color: var(--primary-color);
+    color:#fff;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.productsdetails__text{
+    margin-top: 1rem;
+}
+
+.shortdesc{
+    color:var(--small-text-color);
+    font-size: 0.9rem;
+}
+.product-details__desc{
+    margin: 5rem auto;
+    max-width: 1400px;
+}
+.product-details__desc span{
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.desc{
+    padding:0 2rem
+}
+.description{
+    color:var(--small-text-color);
+    font-size: 0.9rem;
+    padding: 0.5rem 2rem;
+    margin-bottom: 5rem;
+}
+.details{
+    padding-left: 2.5rem;
+}
+.details__products{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: 3rem;
+}
+.products__icons__star {
+    color: #dd8622;
+}
+@media (max-width:1400px){
+    .details__products{
+        grid-template-columns: 1fr 1fr 1fr
+   }
+   textarea{
+    width: 80%;
+}
+input{
+   
+        width: 80%;
+    
+}
+}
+@media (max-width:1080px){
+    .productsdetails__container{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .products-details__text{
+       display: flex;
+       flex-direction: column;
+       gap: 1rem;
+       justify-content: center;
+       margin-top: 2rem;
+    }
+    .shortdesc{
+        width: 600px;
+    }
+    .details__products{
+        grid-template-columns: 1fr 1fr
+    }
+    textarea{
+        width: 80%;
+    }
+    input{
+       
+            width: 80%;
+        
+    }
+   
+}
+
+@media (max-width:750px){
+    .productsdetails_card{
+        width: 100%;
+        max-width: 600px;
+    }
+    .details__products{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+}
+
+@media (max-width:600px){
+    .productsdetails__container{
+       width: 90%;
+       gap: 0.5rem;
+       margin-top: 2rem;
+       padding-left: 0.5rem;
+    }
+    .productsdetails_card{
+        margin: auto;
+
+    }
+    .products-details__text{
+        margin:auto
+    }
+    .shortdesc{
+        width: 400px;
+        font-size: 0.8rem;
+    }
+    textarea{
+        width: 80%;
+    }
+}

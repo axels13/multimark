@@ -1,0 +1,14 @@
+.shop__banner{
+    background: linear-gradient(rgba(0,0,0,0.562), rgba(0,0,0,0.562)),
+     url("../../../assets/images/background.jpg") no-repeat center center;
+     background-size: cover;
+     height: 300px;
+}
+
+.shop__banner h1{
+    
+    color: #fff;
+    text-align: center;
+    padding-top: 2rem;
+
+}

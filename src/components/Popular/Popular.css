@@ -1,0 +1,11 @@
+.popular__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:3rem;
+    margin: 2rem 0;
+}
+
+
+

@@ -1,0 +1,24 @@
+.new__arrivals{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ gap: 2rem;
+ max-width: 1200px;
+ margin: 5rem auto;
+}
+.new__title{
+    text-align: center;
+    margin: 2rem 0;
+}
+@media (max-width:1400px) {
+    .new__arrivals{ grid-template-columns: 1fr 1fr 1fr 
+    }
+}
+@media (max-width:1080px) {
+    .new__arrivals{ grid-template-columns: 1fr 1fr 
+    }
+}
+
+@media (max-width:750px) {
+    .new__arrivals{ grid-template-columns: 1fr 
+    }
+}

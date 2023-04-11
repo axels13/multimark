@@ -1,0 +1,15 @@
+.cart-item__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+.cart__item__text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 0 0 400px;
+}

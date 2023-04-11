@@ -1,0 +1,29 @@
+#best{
+    max-width: 1200px;
+    margin: 4rem auto;
+}
+.best__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: 1rem;
+
+}
+@media (max-width:1400px) {
+    .best__container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+
+@media (max-width:1080px){
+    .best__container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:950px){
+    .best__container{
+        grid-template-columns: 1fr;
+    }
+}

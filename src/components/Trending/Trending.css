@@ -1,0 +1,21 @@
+#trending{
+    padding: 50px 0;
+}
+
+.trending__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    max-width: 1200px;
+    margin: 3rem auto;
+    gap: 1rem;
+}
+
+
+
+@media (max-width:1200px) {
+    .trending__container{
+        flex-wrap: wrap;
+    }
+}
